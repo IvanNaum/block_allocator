@@ -1,0 +1,66 @@
+# Jetbrains`s IDE
+.idea
+cmake-build-debug
+
+# Eclipse, STM32IDE
+RemoteSystemsTempFiles/
+Debug/
+.metadata/
+.settings/
+*.launch
+*.mxproject
+
+# Logs
+*.log
+
+# Build artifacts
+*.elf
+
+# Binary files
+*.dat
+
+# VSCode
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.o
+*.so
+
+# Building
+build/
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Altium Designer
+History
+__Previews
+Project\ Logs*
+Project\ Outputs*
+*.PcbDoc.htm
+.~lock.*
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*~$*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,17 @@
+repos:
+- repo: https://github.com/psf/black
+  rev: 24.10.0
+  hooks:
+  - id: black
+    types_or: [python]
+    args: [--line-length=120]
+- repo: https://github.com/pre-commit/mirrors-clang-format
+  rev: v17.0.6
+  hooks:
+  - id: clang-format
+    types_or: [c++, c]
+    exclude: |
+          (?x)(
+            ^common/logc|
+            ^common/catch
+          )
